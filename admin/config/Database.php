@@ -1,10 +1,10 @@
 <?php
 
 class Database{
-    private $hostname="dallal-cvc2q1";
-    private $username="rootuser";
-    private $password="CDxLH7YxFdGx0yQ4JXPB1yduYhEuRB4Y";
-    private $database="dallal";
+    private $hostname="db";
+    private $username="phpmyadmin";
+    private $password="h9ppwmaodqejslzju1wiibhmxpzya87s";
+    private $database="tu_base_de_datos";
     private $database_connection;
  public function connect(){
    mysqli_report(MYSQLI_REPORT_OFF);
